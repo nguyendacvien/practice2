@@ -1,0 +1,92 @@
+.header {
+  display: flex;
+  flex-flow : column nowrap;
+  align-items: center;
+  padding-bottom: 153px;
+}
+.group-login-signup {
+  display : flex;
+  align-items: center;
+  margin-bottom: 97px;
+}
+.link-login {
+  margin-right: 19px; 
+}
+.group-login-signup {
+  margin-bottom: 97px;
+}
+.navigationbar {
+  margin: 20px 0px 26.5px 0px;
+}
+.button--extra-long {
+  padding: 12px 46.5px 12px 46.5px;
+}
+.introduction {
+  text-align: center;
+  margin: 0px 26px;
+}
+.header__para {
+  margin-bottom: 15px;
+}
+.button--transparent {
+  padding : 10px 17px 9px 18px;
+}
+.dreamware {
+  padding: 0px 10px 0px 10px;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.btn--small-red {
+  display: flex;
+  align-items: flex-end;
+}
+.dreamware__title {
+  margin: 34px 0px 10px;
+}
+.picture-framework {
+  display: flex;
+  justify-content: space-around;
+}
+.col-md--bottom {
+  width: 320px;
+  height: 240px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.picture-framework {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+.text-framework {
+  width: 300px;
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  left: 10px;
+  padding: 64px 30px 16px 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.title--md2-white {
+  display: flex;
+  align-items: flex-end;
+}
+.para--md1-white {
+  display: flex;
+  align-items: flex-end;
+}
+.btn-dreamware2 {
+  margin-top: 30px;
+}
+.people {
+  padding: 16px 20px 0px 20px;
+
+}
+.people__title {
+  margin-bottom: 11px;
+}

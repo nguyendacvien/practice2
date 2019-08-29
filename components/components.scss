@@ -1,0 +1,108 @@
+$color-white:#ffffff;
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+.header {
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url('image/part1/bit.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+.button {
+  cursor: pointer;
+  background: #FF4E50;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: $color-white;
+}
+.button--transparent {
+  border: 2px solid $color-white;
+  box-sizing: border-box;
+  font-weight: normal;
+  background: none;
+}
+.title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: $color-white;
+}
+.para {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #F7F3F2;
+}
+.header__para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #F7F3F2;
+}
+.title--md1-white {
+  font-size: 20px;
+  line-height: 24px;
+}
+.title--extra-white {
+  font-size: 30px;
+  line-height: 37px;
+}
+.link-login {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+.non-deco {
+  decoration : none;
+}
+.title--center {
+  text-align: center;
+}
+.header__title {
+  text-align: center;
+}
+.title--md1-black {
+  font-size: 22px;
+  line-height: 27px;
+  color: #444444;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+}
+
+
+.picture__dreamshare {
+  
+}
+.text-framework {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%);
+  border-radius: 4px;
+}
+.btn--small-red {
+  background: #FF4E50;
+  border-radius: 40px;
+}
+
+.title--md2-white {
+  font-size: 24px;
+  line-height: 14px;
+}
+.para--md1-white {
+  font-size: 14px;
+  line-height: 14px;
+  color: #E3E3E3;
+}
+.btn-text-small {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
