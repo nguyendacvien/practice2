@@ -85,8 +85,30 @@
 }
 .people {
   padding: 16px 20px 0px 20px;
-
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 35px;
 }
 .people__title {
   margin-bottom: 11px;
+}
+.people-para {
+  margin: 0px 22px 0px 22px;
+}
+.badge {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar{
+  position: relative;
+}
+.people-title {
+  margin: 16px 0px 24px 0px;
+}
+.users-co {
+  margin-bottom: 15px;
 }

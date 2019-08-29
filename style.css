@@ -9950,6 +9950,74 @@ body {
   color: #FFFFFF;
 }
 
+.button--transparent-border-red {
+  background: #FFFFFF;
+  border: 2px solid #FF4E50;
+  box-sizing: border-box;
+  color: #FF4E50;
+}
+
+.users-co {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.title--sm2-black {
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #444444;
+}
+
+.avatar {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.people-para {
+  text-align: center;
+  color: #666666;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.badge-color1 {
+  background: #FF4E50;
+}
+
+.badge-color2 {
+  background: #FFA710;
+}
+
+.badge-color3 {
+  background: #19D4CA;
+}
+
+.badge-color4 {
+  background: #667DF3;
+}
+
+.badge {
+  width: 35px;
+  height: 35px;
+  border: 4px #ffffff solid;
+}
+
+.holiday {
+  padding: 0px 10px 0px 10px;
+}
+
+.holiday__title {
+  marign: 0px 10px 0px 10px;
+}
+
 .header {
   display: flex;
   flex-flow: column nowrap;
@@ -10056,10 +10124,38 @@ body {
 
 .people {
   padding: 16px 20px 0px 20px;
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 35px;
 }
 
 .people__title {
   margin-bottom: 11px;
+}
+
+.people-para {
+  margin: 0px 22px 0px 22px;
+}
+
+.badge {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar {
+  position: relative;
+}
+
+.people-title {
+  margin: 16px 0px 24px 0px;
+}
+
+.users-co {
+  margin-bottom: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
