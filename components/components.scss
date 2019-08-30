@@ -1,14 +1,17 @@
 $color-white:#ffffff;
+$color-dark: #444444;
+$color-lightdark: #666666;
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
 .header {
   background-color: rgba(0, 0, 0, 0.8);
-  background-image: url('image/part1/bit.png');
+  background-image: url('image/part1/mobile/pic.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: -webkit-fill-available;
-  height: -webkit-fill-available;
+  //width: -webkit-fill-available;
+  //height: -webkit-fill-available;
 }
+
 .button {
   cursor: pointer;
   background: #FF4E50;
@@ -29,6 +32,7 @@ $color-white:#ffffff;
   font-size: 22px;
   line-height: 27px;
   color: $color-white;
+
 }
 .para {
   font-family: 'Roboto', sans-serif;
@@ -46,11 +50,27 @@ $color-white:#ffffff;
   line-height: 24px;
   color: #F7F3F2;
 }
-.title--md1-white {
+.title--md1 {
   font-size: 20px;
   line-height: 24px;
 }
-.title--extra-white {
+.color--white {
+  color: #FFFFFF;
+}
+.color--dark {
+  color: $color-dark;
+}
+.color--lightdark {
+  color: $color-lightdark;
+}
+.color--grey {
+  color: #E3E3E3;
+}
+.para--md1 {
+  font-size: 14px;
+  line-height: 14px;
+}
+.title--extra {
   font-size: 30px;
   line-height: 37px;
 }
@@ -66,18 +86,12 @@ $color-white:#ffffff;
   text-align: center;
 }
 .header__title {
-  text-align: center;
+
 }
-.title--md1-black {
+.title--md2 {
   font-size: 22px;
   line-height: 27px;
-  color: #444444;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
 }
-
-
 .picture__dreamshare {
   
 }
@@ -94,11 +108,11 @@ $color-white:#ffffff;
   font-size: 24px;
   line-height: 14px;
 }
-.para--md1-white {
+.para--sm {
   font-size: 14px;
   line-height: 14px;
-  color: #E3E3E3;
 }
+
 .btn-text-small {
   font-weight: normal;
   font-size: 10px;
@@ -117,13 +131,9 @@ $color-white:#ffffff;
   flex-flow: column nowrap;
   align-items: center;
 }
-.title--sm2-black {
+.title--sm {
   font-size: 14px;
   line-height: 17px;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
-  color: #444444;
 }
 .avatar {
   display: flex;
@@ -156,8 +166,26 @@ $color-white:#ffffff;
   border: 4px #ffffff solid;
 }
 .holiday {
-  padding: 0px 10px 0px 10px;
+  
 }
 .holiday__title {
-  marign: 0px 10px 0px 10px;
+  marign: 0px 10px 0px 23px;
+}
+
+.title--md3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 14px;
+  letter-spacing: -0.9px;
+}
+.image-framework {
+  width: 300px;
+  height: 120px;
+  mix-blend-mode: normal;
+  border-radius: 4px;
+  background: rgba(0,0,0,0.2);
+  position: relative;
+}
+.para-sm--size18 {
+  font-size: 18px;
 }

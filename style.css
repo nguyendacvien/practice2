@@ -9834,12 +9834,10 @@ body {
 }
 .header {
   background-color: rgba(0, 0, 0, 0.8);
-  background-image: url("image/part1/bit.png");
+  background-image: url("image/part1/mobile/pic.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: -webkit-fill-available;
-  height: -webkit-fill-available;
 }
 
 .button {
@@ -9884,12 +9882,33 @@ body {
   color: #F7F3F2;
 }
 
-.title--md1-white {
+.title--md1 {
   font-size: 20px;
   line-height: 24px;
 }
 
-.title--extra-white {
+.color--white {
+  color: #FFFFFF;
+}
+
+.color--dark {
+  color: #444444;
+}
+
+.color--lightdark {
+  color: #666666;
+}
+
+.color--grey {
+  color: #E3E3E3;
+}
+
+.para--md1 {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.title--extra {
   font-size: 30px;
   line-height: 37px;
 }
@@ -9908,17 +9927,9 @@ body {
   text-align: center;
 }
 
-.header__title {
-  text-align: center;
-}
-
-.title--md1-black {
+.title--md2 {
   font-size: 22px;
   line-height: 27px;
-  color: #444444;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
 }
 
 .text-framework {
@@ -9936,10 +9947,9 @@ body {
   line-height: 14px;
 }
 
-.para--md1-white {
+.para--sm {
   font-size: 14px;
   line-height: 14px;
-  color: #E3E3E3;
 }
 
 .btn-text-small {
@@ -9963,13 +9973,9 @@ body {
   align-items: center;
 }
 
-.title--sm2-black {
+.title--sm {
   font-size: 14px;
   line-height: 17px;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
-  color: #444444;
 }
 
 .avatar {
@@ -10010,12 +10016,28 @@ body {
   border: 4px #ffffff solid;
 }
 
-.holiday {
-  padding: 0px 10px 0px 10px;
+.holiday__title {
+  marign: 0px 10px 0px 23px;
 }
 
-.holiday__title {
-  marign: 0px 10px 0px 10px;
+.title--md3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 14px;
+  letter-spacing: -0.9px;
+}
+
+.image-framework {
+  width: 300px;
+  height: 120px;
+  mix-blend-mode: normal;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.para-sm--size18 {
+  font-size: 18px;
 }
 
 .header {
@@ -10108,16 +10130,6 @@ body {
   justify-content: space-between;
 }
 
-.title--md2-white {
-  display: flex;
-  align-items: flex-end;
-}
-
-.para--md1-white {
-  display: flex;
-  align-items: flex-end;
-}
-
 .btn-dreamware2 {
   margin-top: 30px;
 }
@@ -10127,6 +10139,7 @@ body {
   display: flex;
   flex-flow: column;
   margin-bottom: 35px;
+  align-items: center;
 }
 
 .people__title {
@@ -10135,6 +10148,15 @@ body {
 
 .people-para {
   margin: 0px 22px 0px 22px;
+}
+
+.people__button {
+  width: 100%;
+}
+
+.flex-end {
+  display: flex;
+  align-items: flex-end;
 }
 
 .badge {
@@ -10156,6 +10178,53 @@ body {
 
 .users-co {
   margin-bottom: 15px;
+}
+
+.flex-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.holiday-card {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 120px;
+  margin: 10px 10px 0px 10px;
+}
+
+.holiday {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.image-holiday {
+  position: absolute;
+  z-index: -5;
+}
+
+.holiday__title {
+  margin: 33px 12px 33px 12px;
+}
+
+.image-framework {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.survey {
+  margin-top: 35px;
+  padding: 0px 20px 40px 20px;
+}
+
+.survey-para {
+  margin: 9px 0px 15px 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

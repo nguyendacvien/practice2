@@ -72,14 +72,6 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-.title--md2-white {
-  display: flex;
-  align-items: flex-end;
-}
-.para--md1-white {
-  display: flex;
-  align-items: flex-end;
-}
 .btn-dreamware2 {
   margin-top: 30px;
 }
@@ -88,12 +80,20 @@
   display: flex;
   flex-flow: column;
   margin-bottom: 35px;
+  align-items: center;
 }
 .people__title {
   margin-bottom: 11px;
 }
 .people-para {
   margin: 0px 22px 0px 22px;
+}
+.people__button {
+  width: 100%;
+}
+.flex-end {
+  display: flex;
+  align-items: flex-end;
 }
 .badge {
   position: absolute;
@@ -111,4 +111,42 @@
 }
 .users-co {
   margin-bottom: 15px;
+}
+.flex-end {
+  display: flex;
+  align-items: flex-end;
+}
+.text-center {
+  text-align: center;
+}
+.holiday-card {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 120px;
+  margin: 10px 10px 0px 10px;
+}
+.holiday {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+.image-holiday {
+  position: absolute;
+  z-index: -5;
+}
+.holiday__title {
+  margin: 33px 12px 33px 12px;
+}
+.image-framework {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+.survey {
+  margin-top: 35px;
+  padding: 0px 20px 40px 20px;
+}
+.survey-para {
+  margin: 9px 0px 15px 0px;
 }
