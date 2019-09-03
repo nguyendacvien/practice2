@@ -9,7 +9,7 @@
   align-items: center;
   margin-bottom: 97px;
 }
-.link-login {
+.navigationbar__link-login {
   margin-right: 19px; 
 }
 .group-login-signup {
@@ -79,7 +79,6 @@
   padding: 16px 20px 0px 20px;
   display: flex;
   flex-flow: column;
-  margin-bottom: 35px;
   align-items: center;
 }
 .people__title {
@@ -136,7 +135,7 @@
   z-index: -5;
 }
 .holiday__title {
-  margin: 33px 12px 33px 12px;
+  margin: 33px 65px 15px 65px;
 }
 .image-framework {
   display: flex;
@@ -145,8 +144,35 @@
 }
 .survey {
   margin-top: 35px;
-  padding: 0px 20px 40px 20px;
+  padding-bottom: 40px;
 }
 .survey-para {
   margin: 9px 0px 15px 0px;
+}
+.survey__title {
+  margin: 0px 20px 19px 20px;
+}
+.survey__button {
+}
+.margin-left-right-20px {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.survey__link-button {
+  margin-top: 10px;
+  width: 100%;
+}
+.footer__name-logo {
+  margin-bottom: 10px;
+}
+.footer__title-partners {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer__li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.footer__text-logo {
+  margin-bottom: 5px;
 }
