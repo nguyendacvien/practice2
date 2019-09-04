@@ -11,7 +11,18 @@ $color-lightdark: #666666;
   //width: -webkit-fill-available;
   //height: -webkit-fill-available;
 }
+@media (min-width: 768px){
+  .header{
+    background-image: url('image/part1/tablet/pic.png');
+  }
+  
+}
+@media (min-width: 1440px){
+  .header{
+    background-image: url('image/part1/desktop/pic.png');
+  }
 
+}
 .button {
   cursor: pointer;
   background: #FF4E50;
@@ -227,4 +238,7 @@ $color-lightdark: #666666;
   font-size: 14px;
   line-height: 26px;
   color: #999999;
+}
+.pointer {
+  cursor: pointer;
 }
