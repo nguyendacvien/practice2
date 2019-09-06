@@ -9834,7 +9834,7 @@ body {
 }
 .header {
   background-color: rgba(0, 0, 0, 0.8);
-  background-image: url("image/part1/mobile/pic.png");
+  background-image: url("image/part1/mobile/o.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9842,12 +9842,12 @@ body {
 
 @media (min-width: 768px) {
   .header {
-    background-image: url("image/part1/tablet/pic.png");
+    background-image: url("image/part1/tablet/o.png");
   }
 }
 @media (min-width: 1440px) {
   .header {
-    background-image: url("image/part1/desktop/pic.png");
+    background-image: url("image/part1/desktop/o.png");
   }
 }
 .button {
@@ -10035,6 +10035,7 @@ body {
 }
 
 .people__button {
+  width: 100%;
   margin: 20px 0px 0px 0px;
 }
 
@@ -10136,66 +10137,13 @@ body {
   padding: 12px 46.5px 12px 46.5px;
 }
 
-@media (min-width: 768px) {
-  .header {
-    padding: 0px 50px 376px 48px;
-  }
-  .header .title--extra {
-    font-size: 52px;
-    line-height: 63px;
-    margin: 0px 100px 28.5px 100px;
-  }
-  .header .header__para {
-    font-size: 24px;
-    margin-bottom: 33px;
-  }
-  .header .navigationbar {
-    width: 100%;
-    margin-bottom: 147.5px;
-    display: flex;
-    flex-flow: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .header .group-login-signup {
-    margin-bottom: 0;
-  }
-
-  .dreamware .picture-framework {
-    width: 236px;
-    height: 400px;
-  }
+.col-md-framework {
+  width: 300px;
+  height: 240px;
+  padding: 0px;
+  margin: 0px 10px 10px 10px;
 }
-@media (min-width: 1440px) {
-  .header {
-    padding: 0px 291px 376px 248px;
-  }
-  .header .title--extra {
-    font-size: 52px;
-    line-height: 63px;
-    margin: 0px 194px 28.5px 194px;
-  }
-  .header .header__para {
-    font-size: 24px;
-    margin-bottom: 33px;
-  }
-  .header .navigationbar {
-    width: 100%;
-    margin-bottom: 147.5px;
-    display: flex;
-    flex-flow: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .header .group-login-signup {
-    margin-bottom: 0;
-  }
 
-  .dreamware .picture-framework {
-    width: 236px;
-    height: 400px;
-  }
-}
 .introduction {
   text-align: center;
 }
@@ -10209,11 +10157,14 @@ body {
 }
 
 .dreamware {
-  margin: 0px 10px 0px 10px;
   width: 100%;
   display: flex;
   flex-flow: column;
   align-items: center;
+}
+
+.row {
+  margin: 0px;
 }
 
 .btn--small-red {
@@ -10228,8 +10179,12 @@ body {
 .picture-framework {
   display: flex;
   justify-content: space-around;
-  width: 300px;
-  height: 240px;
+  width: 100%;
+  height: 100%;
+}
+
+.dreamware__image {
+  justify-content: center;
 }
 
 .col-md--bottom {
@@ -10240,7 +10195,7 @@ body {
 }
 
 .text-framework {
-  width: 300px;
+  width: 100%;
   height: 100%;
   position: absolute;
   top: 0px;
@@ -10270,10 +10225,6 @@ body {
   margin: 0px 22px 0px 22px;
 }
 
-.people__button {
-  width: 100%;
-}
-
 .flex-end {
   display: flex;
   align-items: flex-end;
@@ -10297,6 +10248,7 @@ body {
 }
 
 .users-co {
+  width: 236px;
   margin-bottom: 15px;
 }
 
@@ -10310,10 +10262,11 @@ body {
 }
 
 .holiday-card {
+  width: 300px;
+  height: 120px;
   display: flex;
   flex-flow: column;
   align-items: center;
-  height: auto;
   padding: 0px;
   margin: 5px 0px;
 }
@@ -10335,9 +10288,8 @@ body {
 }
 
 .image-framework {
-  display: flex;
-  align-items: center;
-  flex-flow: column;
+  width: 100%;
+  height: 100%;
 }
 
 .survey {
@@ -10379,6 +10331,96 @@ body {
 
 .footer__text-logo {
   margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 0px 50px 376px 48px;
+  }
+  .header .title--extra {
+    font-size: 52px;
+    line-height: 63px;
+    margin: 0px 100px 28.5px 100px;
+  }
+  .header .header__para {
+    font-size: 24px;
+    margin-bottom: 33px;
+  }
+  .header .navigationbar {
+    width: 100%;
+    margin-bottom: 147.5px;
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header .navigationbar .group-login-signup {
+    margin-bottom: 0;
+  }
+
+  .dreamware .row {
+    margin: 0px;
+  }
+  .dreamware .col-md-framework {
+    width: 236px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .dreamware .col-md-framework .text-framework {
+    padding: 205px 30px 16px 20px;
+  }
+
+  .people {
+    padding: 16px 138px 0px 138px;
+  }
+  .people .people__button {
+    width: 180px;
+  }
+
+  .holiday .holiday-card {
+    width: 236px;
+    height: 310px;
+    margin: 5px 10px;
+  }
+  .holiday .image-holiday {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 1440px) {
+  .header {
+    padding: 0px 291px 376px 248px;
+  }
+  .header .title--extra {
+    font-size: 52px;
+    line-height: 63px;
+    margin: 0px 194px 28.5px 194px;
+  }
+  .header .header__para {
+    font-size: 24px;
+    margin-bottom: 33px;
+  }
+  .header .navigationbar {
+    width: 100%;
+    margin-bottom: 147.5px;
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header .group-login-signup {
+    margin-bottom: 0;
+  }
+
+  .dreamware .col-md-framework {
+    width: 300px;
+    height: 400px;
+  }
+
+  .people__button {
+    width: 180px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

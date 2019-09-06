@@ -21,74 +21,12 @@
 .button--extra-long {
   padding: 12px 46.5px 12px 46.5px;
 }
-@media (min-width: 768px){
-  .header {
-    padding: 0px 50px 376px 48px;
-    .title--extra{
-      font-size: 52px;
-      line-height: 63px;
-      margin: 0px 100px 28.5px 100px;
-    }
-    .header__para {
-      font-size: 24px;
-      margin-bottom: 33px;
-    }
-    .navigationbar {
-      width: 100%;
-      margin-bottom: 147.5px;
-      display: flex;
-      flex-flow: row-reverse;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .group-login-signup {
-      margin-bottom: 0;
-    }
-  }
-  .dreamware {
-    .picture-framework {
-      width: 236px;
-      height: 400px;
-    }
 
-
-
-  }
-
-
-
-
-}
-@media (min-width: 1440px){
-  .header {
-    padding: 0px 291px 376px 248px;
-    .title--extra {
-      font-size: 52px;
-      line-height: 63px;
-      margin: 0px 194px 28.5px 194px;
-    }
-    .header__para {
-      font-size: 24px;
-      margin-bottom: 33px;
-    }
-    .navigationbar {
-      width: 100%;
-      margin-bottom: 147.5px;
-      display: flex;
-      flex-flow: row-reverse;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .group-login-signup {
-      margin-bottom: 0;
-    }
-  }
-  .dreamware {
-    .picture-framework {
-      width: 236px;
-      height: 400px;
-    }
-  }
+.col-md-framework {
+  width: 300px;
+  height: 240px;
+  padding: 0px;
+  margin: 0px 10px 10px 10px;
 }
 .introduction {
   text-align: center;
@@ -100,11 +38,14 @@
   padding : 10px 17px 9px 18px;
 }
 .dreamware {
-  margin: 0px 10px 0px 10px;
   width: 100%;
   display: flex;
   flex-flow: column;
   align-items: center;
+
+}
+.row {
+  margin: 0px
 }
 .btn--small-red {
   display: flex;
@@ -116,8 +57,11 @@
 .picture-framework {
   display: flex;
   justify-content: space-around;
-  width: 300px;
-  height: 240px;
+  width: 100%;
+  height: 100%;
+}
+.dreamware__image {
+  justify-content: center;
 }
 .col-md--bottom {
   width: 320px;
@@ -125,11 +69,8 @@
   position: relative;
   margin-bottom: 10px;
 }
-.picture-framework {
-  
-}
 .text-framework {
-  width: 300px;
+  width: 100%;
   height: 100%;
   position: absolute;
   top: 0px;
@@ -155,7 +96,7 @@
   margin: 0px 22px 0px 22px;
 }
 .people__button {
-  width: 100%;
+  
 }
 .flex-end {
   display: flex;
@@ -176,6 +117,7 @@
   margin: 16px 0px 24px 0px;
 }
 .users-co {
+  width: 236px;
   margin-bottom: 15px;
 }
 .flex-end {
@@ -186,10 +128,11 @@
   text-align: center;
 }
 .holiday-card {
+  width: 300px;
+  height: 120px;
   display: flex;
   flex-flow: column;
   align-items: center;
-  height: auto;
   padding: 0px;
   margin: 5px 0px;
 }
@@ -207,9 +150,8 @@
   margin: 33px 65px 15px 65px;
 }
 .image-framework {
-  display: flex;
-  align-items: center;
-  flex-flow: column;
+  width: 100%;
+  height: 100%;
 }
 .survey {
   margin-top: 35px;
@@ -244,4 +186,99 @@
 }
 .footer__text-logo {
   margin-bottom: 5px;
+}
+
+@media (min-width: 768px){
+  .header {
+    padding: 0px 50px 376px 48px;
+    .title--extra{
+      font-size: 52px;
+      line-height: 63px;
+      margin: 0px 100px 28.5px 100px;
+    }
+    .header__para {
+      font-size: 24px;
+      margin-bottom: 33px;
+    }
+    .navigationbar {
+      width: 100%;
+      margin-bottom: 147.5px;
+      display: flex;
+      flex-flow: row-reverse;
+      align-items: center;
+      justify-content: space-between;
+      .group-login-signup {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .dreamware {
+    .row {
+      margin: 0px;
+    }
+    .col-md-framework {
+      width: 236px;
+      height: 400px;
+      margin-left: 10px;
+      margin-right: 10px;
+      .text-framework {
+        padding: 205px 30px 16px 20px;
+      }
+    }
+  }
+  .people {
+    padding: 16px 138px 0px 138px;
+    .people__button {
+      width: 180px;
+    }
+  }
+  .holiday {
+    .holiday-card {
+      width: 236px;
+      height: 310px;
+      margin: 5px 10px;
+
+      
+    }
+    .image-holiday {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+}
+@media (min-width: 1440px){
+  .header {
+    padding: 0px 291px 376px 248px;
+    .title--extra {
+      font-size: 52px;
+      line-height: 63px;
+      margin: 0px 194px 28.5px 194px;
+    }
+    .header__para {
+      font-size: 24px;
+      margin-bottom: 33px;
+    }
+    .navigationbar {
+      width: 100%;
+      margin-bottom: 147.5px;
+      display: flex;
+      flex-flow: row-reverse;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .group-login-signup {
+      margin-bottom: 0;
+    }
+  }
+  .dreamware {
+    .col-md-framework {
+      width: 300px;
+      height: 400px;
+      
+    }
+  }
+  .people__button {
+    width: 180px;
+  }
 }

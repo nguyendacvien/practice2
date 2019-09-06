@@ -4,7 +4,7 @@ $color-lightdark: #666666;
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
 .header {
   background-color: rgba(0, 0, 0, 0.8);
-  background-image: url('image/part1/mobile/pic.png');
+  background-image: url('image/part1/mobile/o.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,13 +13,13 @@ $color-lightdark: #666666;
 }
 @media (min-width: 768px){
   .header{
-    background-image: url('image/part1/tablet/pic.png');
+    background-image: url('image/part1/tablet/o.png');
   }
   
 }
 @media (min-width: 1440px){
   .header{
-    background-image: url('image/part1/desktop/pic.png');
+    background-image: url('image/part1/desktop/o.png');
   }
 
 }
@@ -183,6 +183,7 @@ $color-lightdark: #666666;
   border: 4px #ffffff solid;
 }
 .people__button {
+  width: 100%;
   margin: 20px 0px 0px 0px;
 }
 .title--md3 {
